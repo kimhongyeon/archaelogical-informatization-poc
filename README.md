@@ -132,7 +132,7 @@
 - 민감 정보는 절대 커밋/공개하지 마세요. `.env.local`은 `.gitignore`에 포함되어 있습니다.
 
 4) 빌드 및 실행(개발 서버 대신 빌드 실행 권장)
-- 빌드: `npm run build:production`
+- 빌드: `npm run build`
 - 실행: `npm start`
 - 브라우저에서 접속: http://localhost:3000
 

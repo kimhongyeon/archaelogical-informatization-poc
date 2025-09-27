@@ -12,8 +12,7 @@
   "scripts": {
     "preinstall": "npm run download-glossary-embeddings && npm run setup-python-env",
     "dev": "next dev --turbopack",
-    "build:develpment": "NODE_ENV=development next build",
-    "build:production": "NODE_ENV=production next build",
+    "build": "next build",
     "check-types": "tsc --noEmit",
     "start": "next start --port 3000",
     "lint": "eslint --ext ts,tsx ./src",
